@@ -56,14 +56,11 @@ hr{
     margin: 0 auto;
 }
 .navbar{
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-width: 100vw;
-padding-top: 1rem;
-
-
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    padding-top: 1rem;
 }
 
 .link{
@@ -269,6 +266,15 @@ button{
         text-decoration: none;
      
     }
+    .testimony{
+        margin-left: 10%;
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    /* ------------------------------------------------------------------------------------------------------------ */
     
 @media only screen and (max-width: 900px)  {
     .navbar{
@@ -410,6 +416,15 @@ button{
             font-size: 20px;
             font-weight: 200;
             border-radius: 2rem;
+        }
+        .testimony{
+            margin-left: 10%;
+            width: 80%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            overflow: hidden;
+            overflow-x: scroll;
         }
     }
     

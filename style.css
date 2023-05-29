@@ -27,11 +27,11 @@ p{
     display: flex;
     flex-direction: column;
     height: 100%;
-   overflow-x: hidden;
-  }
-  .maincontainer>div{
+    overflow-x: hidden;
+}
+.maincontainer>div{
     padding-bottom: 1rem;
-  } 
+} 
 .logo{
     display: flex;
     flex-direction: row;
@@ -372,7 +372,7 @@ button{
             height: 100%;
             margin:0 auto 1rem auto
         }
-        .right .imagerow2{
+        /* .right .imagerow2{
             display: flex;
             flex-direction: column;
             margin:0 auto 1rem auto
@@ -382,7 +382,7 @@ button{
             display: flex;
             flex-direction: column;
             
-        }
+        } */
         .bottomlink{
             display: flex;
             justify-content: space-between;

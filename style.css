@@ -121,6 +121,7 @@ list-style: none;
 .flex{
     display: flex;
     justify-content: center;
+    background-color: white;
 }
 .collection,.offer{
     margin: 0 auto;
@@ -225,6 +226,7 @@ button{
         margin-top: -5rem;
         padding: 0 0.25rem 0 0.25rem;
     }
+    
     
     main#carousel {
         grid-row: 1 / 2;
@@ -479,6 +481,20 @@ button{
             height: 100%;
         
         }
+        .sample{
+            background-color: white;
+           margin-top: 200px;
+           height: 20vh;
+        }
+        .image_description h5{
+            font-size: 40%;
+        }
+        .image_description p{
+            font-size: 40%;
+        }
+        .image{
+            width: 25vw;
+        }
         .left{
             text-align: center;
             display:flex;
@@ -571,4 +587,5 @@ button{
             overflow-x: scroll;
         }
     }
+    
     
